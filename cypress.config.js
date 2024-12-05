@@ -1,9 +1,11 @@
 const { defineConfig } = require("cypress");
 const mysql = require("mysql");
+const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 
 module.exports = defineConfig({
   watchForFileChanges: false,
   env: {
+    allureReuseAfterSpec: true,
     db: {
       host: "sql10.freesqldatabase.com",
       user: "sql10749076",
@@ -20,6 +22,8 @@ module.exports = defineConfig({
           return queryTestDb(query, config);
         },
       });
+      allureWriter(on, config);
+      return config;
     },
   },
 });

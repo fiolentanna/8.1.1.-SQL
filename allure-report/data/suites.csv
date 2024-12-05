@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1135","select students by studentgroup","","Thu Dec 05 18:37:14 MSK 2024","passed","Thu Dec 05 18:37:15 MSK 2024","","connect to test db","",""
+"","1281","can connect to the db","","Thu Dec 05 18:37:11 MSK 2024","passed","Thu Dec 05 18:37:12 MSK 2024","","connect to test db","",""
+"","1124","input entries","","Thu Dec 05 18:37:12 MSK 2024","passed","Thu Dec 05 18:37:13 MSK 2024","","connect to test db","",""
+"","1125","can delete the table","","Thu Dec 05 18:37:15 MSK 2024","passed","Thu Dec 05 18:37:17 MSK 2024","","connect to test db","",""
+"","1157","add two more students to group","","Thu Dec 05 18:37:13 MSK 2024","passed","Thu Dec 05 18:37:14 MSK 2024","","connect to test db","",""
